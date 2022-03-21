@@ -1393,7 +1393,3 @@
 ## The number of threads to allocate for encryption
 #  Default: 2
 # c.CryptKeeper.n_threads = 2
-
-c.JupyterHub.spawner_class = 'sudospawner.SudoSpawner'
-# jupyterlab을 기본으로 띄우고 싶으면 jupyterlab을 설치하고 디폴트 경로를 /lab으로 한다.
-c.Spawner.default_url = '/lab'
